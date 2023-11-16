@@ -1,20 +1,21 @@
 class MyShape:
-    def __int__(self,side,length,width,radius):
+    def __init__(self,side,length,width,radius):
         self.side=side
         self.length=length
         self.width=width
         self.radius=radius
+
+    def getSquareArea(self):
+        return f"正方形面積: {self.side*self.side}"
+    
+    def getRectangleArea(self):
+        return f"長方形面積: {self.length*self.width}"
         
-    # def getSquareArea(self):
-    #     print(MyShape.side*MyShape.side)
     
-    # def getRectangleArea(self):
-    #     print(MyShape.length*MyShape.width)
-    
-    # def getCircleArea(self):
-    #     print(MyShape.radius*MyShape.radius*3.14)
-    
+    def getCircleArea(self):
+        return f"圓形面積: {self.radius*self.radius*3.14}"
+
 kk=MyShape(1,2,3,4)
-# kk.getSquareArea()
-# print(num.rectangle)
-# print(num.spheric)
+print(kk.getSquareArea())
+print(kk.getRectangleArea())
+print(kk.getCircleArea())
