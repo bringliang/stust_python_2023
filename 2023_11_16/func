@@ -1,0 +1,20 @@
+class MyShape:
+    def __int__(self,side,length,width,radius):
+        self.side=side
+        self.length=length
+        self.width=width
+        self.radius=radius
+        
+    # def getSquareArea(self):
+    #     print(MyShape.side*MyShape.side)
+    
+    # def getRectangleArea(self):
+    #     print(MyShape.length*MyShape.width)
+    
+    # def getCircleArea(self):
+    #     print(MyShape.radius*MyShape.radius*3.14)
+    
+kk=MyShape(1,2,3,4)
+# kk.getSquareArea()
+# print(num.rectangle)
+# print(num.spheric)
