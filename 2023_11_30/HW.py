@@ -1,5 +1,5 @@
 class Student:
-    def __int__(self,schoolname,name,address,id,departmentname,departmentchairname,credit,gpa):
+    def __init__(self,schoolname,name,address,id,departmentname,departmentchairname,credit,gpa):
         self.schoolname=schoolname
         self.name=name
         self.address=address
